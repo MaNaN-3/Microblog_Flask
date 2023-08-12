@@ -6,7 +6,7 @@ from flask_login import current_user, login_user,logout_user,login_required
 from flask import request
 from werkzeug.urls import url_parse
 from datetime import datetime
-
+#Just for update sake
 
 @app.before_request
 def before_request():
